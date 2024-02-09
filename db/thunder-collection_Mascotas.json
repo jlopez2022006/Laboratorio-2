@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Mascotas",
+    "dateExported": "2024-02-09T17:19:26.662Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "5e629ffb-d759-4128-89dd-911d2d33f01a",
+            "colId": "7364d82a-c7b4-4f4b-bfb5-65536b7e64a3",
+            "containerId": "",
+            "name": "mascotasPost",
+            "url": "localhost:3000/api/mascotas",
+            "method": "POST",
+            "sortNum": 5000,
+            "created": "2024-02-09T16:04:55.018Z",
+            "modified": "2024-02-09T17:13:38.430Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"tipo\": \"Loro\",\n  \"raza\": \"Esfinje\",\n  \"color\": \"Cafe oscuro\",\n  \"edad\": \"2 años\",\n  \"situacion\": \"no adoptado\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7dcf742c-3a64-4fe6-9ee9-47db1e823878",
+            "colId": "7364d82a-c7b4-4f4b-bfb5-65536b7e64a3",
+            "containerId": "",
+            "name": "mascotasGet",
+            "url": "localhost:3000/api/mascotas",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-09T14:46:37.243Z",
+            "modified": "2024-02-09T16:12:24.137Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ea38c8aa-8e82-4011-983b-f15b4e114df4",
+            "colId": "7364d82a-c7b4-4f4b-bfb5-65536b7e64a3",
+            "containerId": "",
+            "name": "getMascotaById",
+            "url": "localhost:3000/api/mascotas/65c65d573f072297113cc9a3",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-02-09T16:59:10.452Z",
+            "modified": "2024-02-09T17:14:15.297Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "cddfc1c9-5e8c-45bb-a50e-1d9cbb5a147d",
+            "colId": "7364d82a-c7b4-4f4b-bfb5-65536b7e64a3",
+            "containerId": "",
+            "name": "mascotasPut",
+            "url": "localhost:3000/api/mascotas/65c65da73db1fdab664e99bf",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-02-09T17:03:28.122Z",
+            "modified": "2024-02-09T17:15:43.485Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"edad\": \"15 añitos\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "28be7a5e-a654-42b7-99f0-47ff533a9bd1",
+            "colId": "7364d82a-c7b4-4f4b-bfb5-65536b7e64a3",
+            "containerId": "",
+            "name": "mascotaDelete",
+            "url": "localhost:3000/api/mascotas/65c65da73db1fdab664e99bf",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2024-02-09T17:11:50.249Z",
+            "modified": "2024-02-09T17:15:52.589Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

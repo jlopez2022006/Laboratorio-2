@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Usuarios",
+    "dateExported": "2024-02-09T17:19:53.342Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "4b8a7dd0-29af-4f71-b6c9-4db2a419d04d",
+            "colId": "32412c62-85b5-4242-8a56-673cd5263cde",
+            "containerId": "",
+            "name": "usuariosPost",
+            "url": "http://localhost:3000/api/usuarios",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-09T16:30:57.779Z",
+            "modified": "2024-02-09T16:30:57.779Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Test 10\",\n  \"correo\":\"test10@kinal.edu.gt\",\n  \"password\":\"123456\",\n  \"role\":\"ADMIN_ROLE\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "cb90bd66-5cc7-4db8-898e-9b2079616d9c",
+            "colId": "32412c62-85b5-4242-8a56-673cd5263cde",
+            "containerId": "",
+            "name": "usuariosGet",
+            "url": "http://localhost:3000/api/usuarios",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-09T16:30:57.780Z",
+            "modified": "2024-02-09T16:30:57.780Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "55577430-a3b2-4211-bbc6-f0ad360c98f3",
+            "colId": "32412c62-85b5-4242-8a56-673cd5263cde",
+            "containerId": "",
+            "name": "getUsuarioById",
+            "url": "http://localhost:3000/api/usuarios/65c4eca2d69fe09ab98b781c",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-09T16:30:57.781Z",
+            "modified": "2024-02-09T16:30:57.781Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1024a158-1d3b-4677-a3c6-98b72c6e8092",
+            "colId": "32412c62-85b5-4242-8a56-673cd5263cde",
+            "containerId": "",
+            "name": "usuariosPut",
+            "url": "http://localhost:3000/api/usuarios/65c4eca2d69fe09ab98b781c",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-09T16:30:57.782Z",
+            "modified": "2024-02-09T16:30:57.782Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Paquita la del barrio\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "479b26db-3fe2-4940-9073-8c289b097ca5",
+            "colId": "32412c62-85b5-4242-8a56-673cd5263cde",
+            "containerId": "",
+            "name": "usuarioDelete",
+            "url": "http://localhost:3000/api/usuarios/65c4e433d69fe09ab98b780d",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-09T16:30:57.783Z",
+            "modified": "2024-02-09T16:30:57.783Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
